@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-30 14:05:52.696259",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier_name",
+  "grn_date",
+  "po_no",
+  "po_date",
+  "column_break_qrrba",
+  "ref_order_no",
+  "exp_deli_date",
+  "branch",
+  "remarks",
+  "section_break_gjmhf",
+  "grn_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Data",
+   "label": "Supplier Name"
+  },
+  {
+   "fieldname": "grn_date",
+   "fieldtype": "Date",
+   "label": "GRN Date"
+  },
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Data",
+   "label": "Po No"
+  },
+  {
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "label": "Po Date"
+  },
+  {
+   "fieldname": "ref_order_no",
+   "fieldtype": "Data",
+   "label": "Ref Order No"
+  },
+  {
+   "fieldname": "exp_deli_date",
+   "fieldtype": "Date",
+   "label": "Exp Deli Date"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_gjmhf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "grn_item",
+   "fieldtype": "Table",
+   "label": "GRN Item",
+   "options": "GRN Item"
+  },
+  {
+   "fieldname": "column_break_qrrba",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-30 14:19:08.456490",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "GRN",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

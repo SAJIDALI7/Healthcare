@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 18:12:25.755676",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "packing_no",
+  "packing_date",
+  "sales_order_no",
+  "sales_order_date",
+  "column_break_n1ny7",
+  "exp_delivery_date",
+  "customer_name",
+  "address",
+  "section_break_ypgpv",
+  "packing_item",
+  "section_break_r8exv",
+  "total_amount",
+  "total_discount",
+  "delivery_charge",
+  "column_break_3fsxc",
+  "payable_amount",
+  "pay_mode"
+ ],
+ "fields": [
+  {
+   "fieldname": "packing_no",
+   "fieldtype": "Data",
+   "label": "Packing No"
+  },
+  {
+   "fieldname": "packing_date",
+   "fieldtype": "Date",
+   "label": "Packing Date"
+  },
+  {
+   "fieldname": "sales_order_no",
+   "fieldtype": "Data",
+   "label": "Sales Order No"
+  },
+  {
+   "fieldname": "sales_order_date",
+   "fieldtype": "Date",
+   "label": "Sales Order Date"
+  },
+  {
+   "fieldname": "exp_delivery_date",
+   "fieldtype": "Date",
+   "label": "Exp Delivery Date"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_n1ny7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ypgpv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "packing_item",
+   "fieldtype": "Table",
+   "label": "Packing Item",
+   "options": "Packing Item"
+  },
+  {
+   "fieldname": "section_break_r8exv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Data",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "total_discount",
+   "fieldtype": "Data",
+   "label": "Total Discount"
+  },
+  {
+   "fieldname": "delivery_charge",
+   "fieldtype": "Data",
+   "label": "Delivery Charge"
+  },
+  {
+   "fieldname": "column_break_3fsxc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payable_amount",
+   "fieldtype": "Data",
+   "label": "Payable Amount"
+  },
+  {
+   "fieldname": "pay_mode",
+   "fieldtype": "Data",
+   "label": "Pay Mode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 18:21:17.662693",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Packing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

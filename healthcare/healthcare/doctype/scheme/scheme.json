@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 15:32:29.269472",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "scheme_name",
+  "description",
+  "status",
+  "scheme_on",
+  "same_item",
+  "different_item",
+  "column_break_bh6ga",
+  "order_qty",
+  "free_qty",
+  "valid_from",
+  "valid_to",
+  "section_break_httvh",
+  "scheme_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "scheme_name",
+   "fieldtype": "Data",
+   "label": "Scheme Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "scheme_on",
+   "fieldtype": "Heading",
+   "label": "Scheme On"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_item",
+   "fieldtype": "Check",
+   "label": "Same Item"
+  },
+  {
+   "default": "0",
+   "fieldname": "different_item",
+   "fieldtype": "Check",
+   "label": "Different Item"
+  },
+  {
+   "fieldname": "column_break_bh6ga",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_qty",
+   "fieldtype": "Data",
+   "label": "Order Qty"
+  },
+  {
+   "fieldname": "free_qty",
+   "fieldtype": "Data",
+   "label": "Free Qty"
+  },
+  {
+   "fieldname": "valid_from",
+   "fieldtype": "Date",
+   "label": "Valid From"
+  },
+  {
+   "fieldname": "valid_to",
+   "fieldtype": "Date",
+   "label": "Valid To"
+  },
+  {
+   "fieldname": "section_break_httvh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "scheme_item",
+   "fieldtype": "Table",
+   "label": "Scheme Item",
+   "options": "Scheme Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 15:32:29.269472",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Scheme",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

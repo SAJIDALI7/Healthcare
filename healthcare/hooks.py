@@ -5,12 +5,21 @@ app_description = "Healthcare"
 app_email = "emedstore@gmail.com"
 app_license = "MIT"
 
+
+
+# urlpatterns = [
+#     # Other routes...
+#     ("/api.method.healthcare.healthcare.item_api.get_item_details", "healthcare.healthcare.item_api.get_item_details")
+# ]
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/healthcare/css/healthcare.css"
 # app_include_js = "/assets/healthcare/js/healthcare.js"
+# app_include_js = ["/assets/js/quagga.min.js"]
+# app_include_js = ["/healthcare/public/js/quagga.min.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/healthcare/css/healthcare.css"
@@ -153,9 +162,12 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "healthcare.event.get_events"
-# }
+override_whitelisted_methods = {
+	# "frappe.desk.doctype.event.event.get_events": "healthcare.event.get_events"
+    "/api.method.healthcare.item_api.get_item_details": "healthcare.item_api.get_item_details",
+    "/api.method.healthcare.category_api.get_category_details": "healthcare.category_api.get_category_details",
+    "/api.method.healthcare.sub_category_api.get_sub_category_details": "healthcare.sub_category_api.get_sub_category_details"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
